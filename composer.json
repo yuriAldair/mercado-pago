@@ -1,0 +1,23 @@
+{
+    "name": "yuriAldair/mercado-pago",
+    "description": "SDK Mercado Pago para Laravel",
+    "keywords": [
+        "mercadopago",
+        "sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuri Aldair",
+            "email": "yurialdair@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yuriAldair\\mercadopago\\": "src/"
+        }
+    }
+}
